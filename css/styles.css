@@ -20,8 +20,8 @@ p {
 
 .big-heading {
   font-family: "Roboto";
-  font-size: 3.5rem;
-  line-height: 1.5;
+  font-size: 3rem; /* era 3.5*/
+  line-height: 1; /* era 1.5 */
 }
 
 .section-heading {
@@ -32,13 +32,13 @@ p {
 /* Containers */
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 3% 15%;
 }
 
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #c41025; /*#ff4c68;*/
   color: #fff;
 }
 
@@ -75,8 +75,12 @@ p {
 
 /* Title Section */
 
+#logo {
+  color: #fff000;
+}
+
 #title {
-  background-color: #ff4c68;
+  background-color: #c41025; /*#ff4c68;*/
   color: #fff;
   text-align: left;
 }
@@ -114,18 +118,19 @@ p {
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #c41025;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #c41025;
 }
 
 .testimonial-text {
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 1.3;
+  font-style: italic;
 }
 
 .testimonial-image {
@@ -135,7 +140,7 @@ p {
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #fff; /*#ef8172;*/
   padding-bottom: 3%;
 }
 
