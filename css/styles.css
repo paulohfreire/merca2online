@@ -69,8 +69,19 @@ p {
 
 /* Buttons */
 
-.download-button {
+#download-button {
   margin: 5% 3% 5% 0;
+  padding: 15px 20px 20px;
+  height: 3.5rem;
+  background-color: #ffc72c;
+  color: #fff;
+  font-weight: 700;
+}
+#download-button:hover {
+  background-color: #fac400;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 0px #fff;
 }
 
 /* Title Section */
@@ -139,37 +150,89 @@ p {
   margin: 20px;
 }
 
-#press {
-  background-color: #fff; /*#ef8172;*/
-  padding-bottom: 3%;
+/* Works Section */
+
+#works {
+  position: relative;
 }
 
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+.feature-title {
+  font-size: 1.5rem;
 }
 
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
+.feature-box {
+  padding: 4.5%;
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
+.work-image {
+  height: 25%;
+  margin: 30px;
 }
 
-.pricing-column {
-  padding: 3% 2%;
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-/* CTA Section */
+.icon:hover {
+  color: #c41025;
+}
+
+/* Contact Section */
+
+section#contact form#contactForm .form-group {
+  margin-bottom: 1.5rem;
+}
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}
+section#contact form#contactForm .form-group input.form-control {
+  height: auto;
+}
+section#contact form#contactForm .form-group-textarea {
+  height: 100%;
+}
+section#contact form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#contact form#contactForm p.help-block {
+  margin: 0;
+}
+section#contact form#contactForm .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact form#contactForm ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+}
+.text-center {
+  margin: 30px;
+}
 
 /* Footer Section */
 
 .social-icon {
   margin: 20px 10px;
+}
+
+#footer p {
+  color: #fff;
+  margin: 0;
 }
 
 @media (max-width: 1028px) {
